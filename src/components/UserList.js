@@ -26,7 +26,6 @@ export const UserList = ({
 }) => {
   const [usersInView, setUsersInView] = useState([]);
   const [modalOpen, setModalOpen] = useState(false);
-  console.log(USER_LIST);
 
   useEffect(() => {
     setUsersInView(
