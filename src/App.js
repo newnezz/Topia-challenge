@@ -10,6 +10,23 @@ function App() {
 
   return (
     <Container style={{ marginTop: "2rem" }}>
+      {/* Logo */}
+      <Typography
+        variant="h1"
+        style={{
+          textAlign: "center",
+          fontSize: "3rem",
+          marginBottom: "2rem",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          fontWeight: "bold",
+        }}
+      >
+        <img src="blue.gif" height="150px"/>
+        Topia Frontend Coding Challenge
+        <img src="green.gif" height="150px"/>
+      </Typography>
       <Grid container spacing={3} alignItems="center">
         {/* Inputs for X, Y, Screen Width, and Height */}
         <Grid item xs={12} sm={6} md={3}>
@@ -20,6 +37,7 @@ function App() {
             type="number"
             onChange={(e) => setPositionX(Number(e.target.value))}
             value={positionX}
+            style={{ backgroundColor: 'white' }}
           />
         </Grid>
 
@@ -31,6 +49,7 @@ function App() {
             type="number"
             onChange={(e) => setPositionY(Number(e.target.value))}
             value={positionY}
+            style={{ backgroundColor: 'white' }}
           />
         </Grid>
 
@@ -42,6 +61,7 @@ function App() {
             type="number"
             onChange={(e) => setScreenWidth(Number(e.target.value))}
             defaultValue={screenWidth}
+            style={{ backgroundColor: 'white' }}
           />
         </Grid>
 
@@ -53,6 +73,7 @@ function App() {
             type="number"
             onChange={(e) => setScreenHeight(Number(e.target.value))}
             defaultValue={screenHeight}
+            style={{ backgroundColor: 'white' }}
           />
         </Grid>
       </Grid>

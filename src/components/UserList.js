@@ -66,7 +66,7 @@ export const UserList = ({
       }}
     >
       {/* Modal Button */}
-      <Button variant="contained" color="primary" onClick={handleOpen}>
+      <Button variant="contained" size="large" color="primary" onClick={handleOpen}>
         Show Users In View
       </Button>
 
