@@ -23,9 +23,9 @@ function App() {
           fontWeight: "bold",
         }}
       >
-        <img src="blue.gif" height="150px" />
+        <img src="blue.gif" height="150px" alt="Blue Topia Sprite Dancing" />
         Topia Frontend Coding Challenge
-        <img src="green.gif" height="150px" />
+        <img src="green.gif" height="150px" alt="Green Topia Sprite Dancing" />
       </Typography>
       <Grid container spacing={3} alignItems="center">
         {/* Inputs for X, Y, Screen Width, and Height */}
