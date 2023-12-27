@@ -44,5 +44,7 @@ Please submit this completed project to a new github repo. We can coordinate our
 To run this repository, run: `npm start` from the project directory at your terminal and test your progress at `http://localhost:3000/`. Please ensure `node` and `npm` are installed on your computer
 
 ##### Happy Coding!
+
 # Topia-challenge
+
 # Topia-challenge

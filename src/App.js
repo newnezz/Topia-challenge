@@ -23,9 +23,9 @@ function App() {
           fontWeight: "bold",
         }}
       >
-        <img src="blue.gif" height="150px"/>
+        <img src="blue.gif" height="150px" />
         Topia Frontend Coding Challenge
-        <img src="green.gif" height="150px"/>
+        <img src="green.gif" height="150px" />
       </Typography>
       <Grid container spacing={3} alignItems="center">
         {/* Inputs for X, Y, Screen Width, and Height */}
@@ -37,7 +37,7 @@ function App() {
             type="number"
             onChange={(e) => setPositionX(Number(e.target.value))}
             value={positionX}
-            style={{ backgroundColor: 'white' }}
+            style={{ backgroundColor: "white" }}
           />
         </Grid>
 
@@ -49,7 +49,7 @@ function App() {
             type="number"
             onChange={(e) => setPositionY(Number(e.target.value))}
             value={positionY}
-            style={{ backgroundColor: 'white' }}
+            style={{ backgroundColor: "white" }}
           />
         </Grid>
 
@@ -61,7 +61,7 @@ function App() {
             type="number"
             onChange={(e) => setScreenWidth(Number(e.target.value))}
             defaultValue={screenWidth}
-            style={{ backgroundColor: 'white' }}
+            style={{ backgroundColor: "white" }}
           />
         </Grid>
 
@@ -73,7 +73,7 @@ function App() {
             type="number"
             onChange={(e) => setScreenHeight(Number(e.target.value))}
             defaultValue={screenHeight}
-            style={{ backgroundColor: 'white' }}
+            style={{ backgroundColor: "white" }}
           />
         </Grid>
       </Grid>
