@@ -10,9 +10,12 @@
 Welcome to the Topia Frontend Coding Challenge repository! This project is a showcase of front-end technologies combining a graphical canvas, user interface, and streaming system to deliver a unique experience. The main objective is to enhance the algorithm responsible for maintaining peer avatars on the canvas based on the user's viewport, wrapped in a custom-designed user interface.
 
 ### Technologies
-- **React**: A JavaScript library for building user interfaces.
-- **Material-UI**: A popular React UI framework.
-- **NPM**: A package manager for JavaScript and the world's largest software registry.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor)
+![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-1A2B34?style=for-the-badge&logo=prettier&logoColor=white)
+
 
 ## Features
 
