@@ -1,5 +1,6 @@
-<!-- IMAGE -->
-![Image of Application Showcased](readmeimage.jpeg)
+<p align="center">
+    <img src="topia.gif" height="500">
+</p>
 
 # Topia Frontend Coding Challenge
 
@@ -28,9 +29,13 @@ Ensure you have the following installed:
 
 ### Installation
 1. Clone the repository:
-`git clone https://github.com/newnezz/Topia-challenge.git`
+```sh 
+git clone https://github.com/newnezz/Topia-challenge.git
+```
 2. Navigate to the project directory and install dependencies:
-`cd Topia-challenge && npm install`
+```sh
+cd Topia-challenge && npm install
+```
 
 ### Running the Project
 To run the application on your local machine:
@@ -40,8 +45,8 @@ Visit `http://localhost:3000/` to view the application.
 
 - **Launch Application**: Run the application and navigate to the main interface.
 - **Access User List**: Click the 'User List' button to open the modal displaying the user list.
-- **Edit Coordinates**: Change the 'x' and 'y' coordinates in the modal to update the list of visible users dynamically.
-- **View and Sort Users**: Observe the users listed in the table, sorted by proximity and marked if they are a broadcaster.
+- **Edit Coordinates**: Change the 'x' and 'y' coordinates in the modal or main menu, updating the list of visible users dynamically.
+- **View and Sort Users**: Observe the users listed in the table, sorted by proximity with broadcaster status noted by icon.
 
 ## Acknowledgments
 - Special thanks to the Topia team for providing the opportunity and challenge.
