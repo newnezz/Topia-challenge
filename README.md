@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="topia.gif" height="500">
+    <img src="topia-readme.gif" height="500">
 </p>
 
 # Topia Frontend Coding Challenge
