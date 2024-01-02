@@ -9,7 +9,7 @@ function App() {
   const [screenHeight, setScreenHeight] = useState(400);
 
   return (
-    <Container style={{ marginTop: "2rem" }}>
+    <Container style={{ marginTop: "2rem" }} className="App">
       {/* Logo */}
       <Typography
         variant="h1"
